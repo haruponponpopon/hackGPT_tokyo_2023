@@ -5,7 +5,7 @@
   sendButton.onclick = async ()=>{
     const input = messageInput.value;
     const data = {"topic": input}
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 6; i++) {
       console.log(data);
       const response = await fetch("/debate", {
       method: "POST",
